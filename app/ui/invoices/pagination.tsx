@@ -20,12 +20,6 @@ export default function Pagination({ totalPages }: { totalPages: number }) {
     return `${pathname}?${params.toString()}`
   }
 
-  async function create(formData: FormData) {
-    'use server';
-
-    
-  }
-
   return (
     <>
       {/*  NOTE: Uncomment this code in Chapter 11 */}
